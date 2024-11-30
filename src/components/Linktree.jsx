@@ -1,4 +1,10 @@
-import { FaGithub, FaLinkedin, FaTwitter, FaGlobe } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+  FaGlobe,
+  FaInstagram,
+} from "react-icons/fa";
 import Foto from "../assets/aku.jpg";
 const Linktree = () => {
   const links = [
@@ -17,6 +23,12 @@ const Linktree = () => {
       url: "https://twitter.com/muqsith_barru",
       icon: <FaTwitter />,
     },
+    {
+      name: "Instagram",
+      url: "https://www.instagram.com/flyingcat121/",
+      icon: <FaInstagram />,
+    },
+
     {
       name: "Portfolio",
       url: "https://github.com/indonumberone",
